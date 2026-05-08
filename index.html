@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RTA Among Healthcare Workers – Kedah 2023-2025</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0f1117;--card:#1a1d27;--card2:#222639;--border:#2a2e3f;--text:#e4e6f0;--text2:#9498ab;--accent:#6c5ce7;--accent2:#a29bfe;--green:#00b894;--red:#e17055;--orange:#fdcb6e;--blue:#74b9ff;--pink:#fd79a8;--teal:#00cec9;--gradient:linear-gradient(135deg,#6c5ce7,#a29bfe)}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.header{background:linear-gradient(135deg,#1a1033 0%,#2d1b69 50%,#1a1033 100%);padding:2rem;text-align:center;border-bottom:2px solid var(--accent)}
+.header h1{font-size:1.6rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:.3rem}
+.header p{color:var(--text2);font-size:.85rem}
+.tabs{display:flex;gap:0;background:var(--card);border-bottom:2px solid var(--border);overflow-x:auto;position:sticky;top:0;z-index:100}
+.tab{padding:.8rem 1.2rem;cursor:pointer;color:var(--text2);font-size:.8rem;font-weight:600;border:none;background:none;white-space:nowrap;transition:all .3s}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--accent2);border-bottom:3px solid var(--accent);background:rgba(108,92,231,.1)}
+.content{max-width:1400px;margin:0 auto;padding:1.5rem}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.2rem;transition:transform .2s}
+.card:hover{transform:translateY(-2px)}
+.card h3{font-size:.85rem;color:var(--text2);margin-bottom:.8rem;text-transform:uppercase;letter-spacing:.5px}
+.card-full{grid-column:1/-1}
+.kpi-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;margin-bottom:1.5rem}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.2rem;text-align:center}
+.kpi .value{font-size:2rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.kpi .label{font-size:.7rem;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;margin-top:.2rem}
+.kpi .change{font-size:.75rem;margin-top:.3rem}
+.kpi .up{color:var(--red)}
+.kpi .down{color:var(--green)}
+table{width:100%;border-collapse:collapse;font-size:.78rem}
+th{background:var(--card2);color:var(--accent2);padding:.6rem .8rem;text-align:left;font-weight:600;position:sticky;top:0}
+td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--text)}
+tr:hover td{background:rgba(108,92,231,.05)}
+.stat-sig{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.7rem;font-weight:600}
+.sig{background:rgba(0,184,148,.15);color:var(--green)}
+.not-sig{background:rgba(148,152,171,.15);color:var(--text2)}
+.section-title{font-size:1.1rem;font-weight:700;margin:1.5rem 0 1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.theme-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.2rem;margin-bottom:1rem}
+.theme-card h4{color:var(--accent2);font-size:.95rem;margin-bottom:.5rem}
+.theme-card .desc{color:var(--text2);font-size:.8rem;margin-bottom:.8rem}
+.quote{background:var(--card2);border-left:3px solid var(--accent);padding:.6rem 1rem;margin:.4rem 0;font-style:italic;font-size:.78rem;color:var(--text2);border-radius:0 6px 6px 0}
+.badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:.65rem;font-weight:600;margin:2px}
+.badge-purple{background:rgba(108,92,231,.2);color:var(--accent2)}
+.badge-green{background:rgba(0,184,148,.2);color:var(--green)}
+.badge-orange{background:rgba(253,203,110,.2);color:var(--orange)}
+.badge-red{background:rgba(225,112,85,.2);color:var(--red)}
+.badge-blue{background:rgba(116,185,255,.2);color:var(--blue)}
+.methodology{background:var(--card2);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid var(--border)}
+.methodology h4{color:var(--accent2);margin-bottom:.5rem}
+.methodology p,.methodology li{font-size:.8rem;color:var(--text2)}
+canvas{max-height:350px}
+@media(max-width:900px){.grid2,.grid3,.grid4,.kpi-grid{grid-template-columns:1fr}}
+.chart-container{position:relative;height:320px}
+.freq-bar{display:flex;align-items:center;margin:.3rem 0;font-size:.78rem}
+.freq-bar .label{width:220px;text-align:right;padding-right:10px;color:var(--text2);flex-shrink:0}
+.freq-bar .bar-bg{flex:1;background:var(--card2);border-radius:4px;height:22px;overflow:hidden;position:relative}
+.freq-bar .bar-fill{height:100%;border-radius:4px;display:flex;align-items:center;padding-left:8px;font-size:.7rem;font-weight:600;color:#fff;transition:width .6s}
+.scrollable{max-height:450px;overflow-y:auto}
+.scrollable::-webkit-scrollbar{width:6px}
+.scrollable::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+.apa-label{font-size:.82rem;font-weight:700;color:var(--text);margin-bottom:2px;text-align:left}
+.apa-title{font-size:.8rem;font-style:italic;color:var(--text2);margin-bottom:.8rem;text-align:left;line-height:1.4}
+.apa-note{font-size:.72rem;color:var(--text2);margin-top:.5rem;text-align:left;font-style:italic;border-top:1px solid var(--border);padding-top:.4rem}
+.card h3{display:none}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>🚗 Road Traffic Accidents Among Healthcare Workers</h1>
+<p>A Rising Occupational Hazard in Kedah, Malaysia (2023–2025) | WEHU/KKP Investigation Data | N=310</p>
+</div>
+
+<div class="tabs">
+<div class="tab active" onclick="showTab('desc')">📊 Descriptive Statistics</div>
+<div class="tab" onclick="showTab('analytical')">📈 Analytical Statistics</div>
+<div class="tab" onclick="showTab('advanced')">🔬 Advanced Analytics</div>
+<div class="tab" onclick="showTab('thematic')">📝 Thematic Analysis</div>
+<div class="tab" onclick="showTab('summary')">📋 Executive Summary</div>
+</div>
+
+<div class="content">
+<!-- TAB 1: DESCRIPTIVE -->
+<div id="tab-desc" class="tab-panel active">
+<div class="kpi-grid" id="kpi-container"></div>
+<div class="grid2">
+<div class="card" id="wrap-chart-trend"><div class="chart-container"><canvas id="chart-trend"></canvas></div></div>
+<div class="card" id="wrap-chart-proportion"><div class="chart-container"><canvas id="chart-proportion"></canvas></div></div>
+</div>
+<div class="section-title">Sociodemographic Profile</div>
+<div class="grid3">
+<div class="card" id="wrap-chart-gender"><div class="chart-container"><canvas id="chart-gender"></canvas></div></div>
+<div class="card" id="wrap-chart-age"><div class="chart-container"><canvas id="chart-age"></canvas></div></div>
+<div class="card" id="wrap-chart-ethnicity"><div class="chart-container"><canvas id="chart-ethnicity"></canvas></div></div>
+</div>
+<div class="section-title">Occupational Profile</div>
+<div class="grid2">
+<div class="card" id="wrap-jawatan"><div id="jawatan-bars" class="scrollable"></div></div>
+<div class="card" id="wrap-chart-facility"><div class="chart-container"><canvas id="chart-facility"></canvas></div></div>
+</div>
+<div class="grid2">
+<div class="card" id="wrap-chart-district"><div class="chart-container"><canvas id="chart-district"></canvas></div></div>
+<div class="card" id="wrap-chart-vehicle"><div class="chart-container"><canvas id="chart-vehicle"></canvas></div></div>
+</div>
+<div class="section-title">Temporal & Injury Profile</div>
+<div class="grid3">
+<div class="card" id="wrap-chart-time"><div class="chart-container"><canvas id="chart-time"></canvas></div></div>
+<div class="card" id="wrap-chart-shift"><div class="chart-container"><canvas id="chart-shift"></canvas></div></div>
+<div class="card" id="wrap-chart-injury"><div class="chart-container"><canvas id="chart-injury"></canvas></div></div>
+</div>
+<div class="grid2">
+<div class="card" id="wrap-chart-treatment"><div class="chart-container"><canvas id="chart-treatment"></canvas></div></div>
+<div class="card" id="wrap-chart-mc"><div class="chart-container"><canvas id="chart-mc"></canvas></div></div>
+</div>
+<div class="section-title">Frequency Tables</div>
+<div class="grid2">
+<div class="card" id="wrap-table-gender-year"><div id="table-gender-year"></div></div>
+<div class="card" id="wrap-table-vehicle-injury"><div id="table-vehicle-injury"></div></div>
+</div>
+</div>
+
+<!-- TAB 2: ANALYTICAL -->
+<div id="tab-analytical" class="tab-panel">
+<div class="methodology">
+<h4>📐 Statistical Methods</h4>
+<p>The following analytical tests are performed on the RTA dataset:</p>
+<ul style="margin-top:.5rem;padding-left:1.2rem">
+<li><strong>Chi-Square Test (χ²)</strong> – Tests association between categorical variables (gender, vehicle type, injury severity, year).</li>
+<li><strong>Cochran-Armitage Trend Test</strong> – Tests for significant linear trend in RTA proportion across years.</li>
+<li><strong>Fisher's Exact Test</strong> – Used when expected cell counts &lt;5.</li>
+<li><strong>Odds Ratio (OR)</strong> – Measures strength of association between exposure and outcome.</li>
+<li><strong>Binary Logistic Regression</strong> – Multivariate analysis of injury severity predictors.</li>
+<li><strong>Kruskal-Wallis Test</strong> – Compares MC days across groups.</li>
+</ul>
+<p style="margin-top:.5rem">Significance level: α = 0.05. All tests two-tailed.</p>
+</div>
+<div id="analytical-results"></div>
+</div>
+
+<!-- TAB 3: ADVANCED ANALYTICS -->
+<div id="tab-advanced" class="tab-panel">
+<div id="advanced-content"></div>
+</div>
+
+<!-- TAB 4: THEMATIC -->
+<div id="tab-thematic" class="tab-panel">
+<div class="methodology">
+<h4>📖 Thematic Analysis Methodology</h4>
+<p>Thematic analysis following <strong>Braun & Clarke's (2006)</strong> 6-phase reflexive framework was applied to three free-text fields:</p>
+<ul style="margin-top:.5rem;padding-left:1.2rem">
+<li><strong>Ringkasan Kejadian</strong> (Incident Narrative) – n=<span id="n-narrative">0</span> responses</li>
+<li><strong>Faktor Penyebab Utama</strong> (Primary Causative Factor) – n=<span id="n-cause">0</span> responses</li>
+<li><strong>Faktor Penyumbang</strong> (Contributing Factors) – n=<span id="n-contrib">0</span> responses</li>
+</ul>
+<p style="margin-top:.5rem"><strong>Phases:</strong> 1) Familiarization → 2) Initial Coding → 3) Theme Search → 4) Theme Review → 5) Theme Definition → 6) Reporting</p>
+</div>
+<div id="theme-summary-table"></div>
+<div class="grid2">
+<div class="card" id="wrap-chart-themes-cause"><div class="chart-container"><canvas id="chart-themes-cause"></canvas></div></div>
+<div class="card" id="wrap-chart-themes-contrib"><div class="chart-container"><canvas id="chart-themes-contrib"></canvas></div></div>
+</div>
+<div id="thematic-details"></div>
+</div>
+
+<!-- TAB 4: SUMMARY -->
+<div id="tab-summary" class="tab-panel">
+<div id="exec-summary"></div>
+</div>
+</div>
+
+<script>
+// LOAD DATA AND RENDER
+</script>
+<script src="rta_analysis.js"></script>
+</body>
+</html>

@@ -1,0 +1,1748 @@
+{
+  "N": 310,
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "rta_counts": {
+    "2023": 42,
+    "2024": 93,
+    "2025": 175
+  },
+  "all_counts": {
+    "2023": 345,
+    "2024": 257,
+    "2025": 426
+  },
+  "rta_pct": {
+    "2023": 12.2,
+    "2024": 36.2,
+    "2025": 41.1
+  },
+  "growth": 316.7,
+  "avg_mc": 8.2,
+  "injury_pct": 48.4,
+  "mc_rate": 56.1,
+  "gender": {
+    "LELAKI": 158,
+    "PEREMPUAN": 152
+  },
+  "age": {
+    "<25": 6,
+    "25-29": 25,
+    "30-34": 56,
+    "35-39": 70,
+    "40-44": 58,
+    "45-49": 46,
+    "50-54": 28,
+    "55+": 21
+  },
+  "ethnicity": {
+    "Melayu": 287,
+    "Cina": 12,
+    "India": 7,
+    "Lain-lain": 2,
+    "MELAYU": 1,
+    "Bumiputera Sabah": 1
+  },
+  "vehicle": {
+    "Motorsikal": 141,
+    "Kereta Persendirian": 129,
+    "Kereta Jabatan": 13,
+    "Van Jabatan": 10,
+    "Tidak Berkenaan": 7,
+    "Ambulans": 6
+  },
+  "facility": {
+    "HOSPITAL": 148,
+    "PEJABAT KESIHATAN DAERAH": 135,
+    "PEJABAT KESIHATAN PERGIGIAN DAERAH": 14,
+    "JABATAN KESIHATAN NEGERI": 13
+  },
+  "district": {
+    "ALOR SETAR": 45,
+    "BALING": 45,
+    "KULIM": 44,
+    "KOTA SETAR": 29,
+    "PADANG TERAP": 27,
+    "BANDAR BAHARU": 24,
+    "SUNGAI PETANI": 19,
+    "PENDANG": 18,
+    "KUBANG PASU": 15,
+    "SIK": 14,
+    "KUALA MUDA": 14,
+    "LANGKAWI": 9,
+    "YAN": 7
+  },
+  "shift": {
+    "Waktu Pejabat": 119,
+    "Pagi": 97,
+    "Petang": 52,
+    "Malam": 31,
+    "Tidak Berkenaan": 10,
+    "Syif": 1
+  },
+  "injury": {
+    "Cedera": 146,
+    "Tiada Kecederaan": 128,
+    "Tidak maut": 22,
+    "Tahap Kecederaan": 4,
+    "Maut": 4,
+    "Kereta Persendirian": 2
+  },
+  "treatment": {
+    "Ya": 192,
+    "Tidak": 114
+  },
+  "mc": {
+    "Ya": 174,
+    "Tidak": 88
+  },
+  "time_period": {
+    "Night (8pm-5am)": 89,
+    "Early Morning (5-8am)": 59,
+    "Morning (8am-12pm)": 24,
+    "Evening (5-8pm)": 16,
+    "Afternoon (12-2pm)": 16,
+    "Late Afternoon (2-5pm)": 14
+  },
+  "jawatan": {
+    "Jururawat Terlatih": 40,
+    "Pemandu Kenderaan": 26,
+    "Penolong Pegawai Perubatan": 26,
+    "Pembantu Perawatan Kesihatan": 25,
+    "Jururawat": 24,
+    "Jururawat Masyarakat": 23,
+    "Pembantu Kesihatan Awam": 23,
+    "Penolong Pegawai Kesihatan Persekitaran": 17,
+    "Pegawai Farmasi": 13,
+    "Pegawai Perubatan": 13,
+    "Pembantu Awam": 12,
+    "Pembantu Tadbir": 8,
+    "Pegawai Pergigian": 7,
+    "Jururawat Kesihatan": 6,
+    "Penolong Pegawai Farmasi": 4
+  },
+  "gender_year": {
+    "2023": {
+      "LELAKI": 11,
+      "PEREMPUAN": 31
+    },
+    "2024": {
+      "LELAKI": 45,
+      "PEREMPUAN": 48
+    },
+    "2025": {
+      "LELAKI": 102,
+      "PEREMPUAN": 73
+    }
+  },
+  "vehicle_injury": {
+    "Ambulans": {
+      "Cedera": 0,
+      "Kereta Persendirian": 0,
+      "Maut": 0,
+      "Tahap Kecederaan": 0,
+      "Tiada Kecederaan": 6,
+      "Tidak maut": 0
+    },
+    "Kereta Jabatan": {
+      "Cedera": 0,
+      "Kereta Persendirian": 0,
+      "Maut": 0,
+      "Tahap Kecederaan": 0,
+      "Tiada Kecederaan": 13,
+      "Tidak maut": 0
+    },
+    "Kereta Persendirian": {
+      "Cedera": 27,
+      "Kereta Persendirian": 2,
+      "Maut": 1,
+      "Tahap Kecederaan": 1,
+      "Tiada Kecederaan": 89,
+      "Tidak maut": 7
+    },
+    "Motorsikal": {
+      "Cedera": 111,
+      "Kereta Persendirian": 0,
+      "Maut": 3,
+      "Tahap Kecederaan": 2,
+      "Tiada Kecederaan": 10,
+      "Tidak maut": 14
+    },
+    "Tidak Berkenaan": {
+      "Cedera": 5,
+      "Kereta Persendirian": 0,
+      "Maut": 0,
+      "Tahap Kecederaan": 0,
+      "Tiada Kecederaan": 1,
+      "Tidak maut": 1
+    },
+    "Van Jabatan": {
+      "Cedera": 1,
+      "Kereta Persendirian": 0,
+      "Maut": 0,
+      "Tahap Kecederaan": 1,
+      "Tiada Kecederaan": 7,
+      "Tidak maut": 0
+    }
+  },
+  "analytical": [
+    {
+      "test": "Chi-Square Test",
+      "vars": "Gender × Year",
+      "stat": "χ²=14.316",
+      "df": 2,
+      "p": 0.0008,
+      "sig": true,
+      "interpretation": "Gender distribution differs significantly across years"
+    },
+    {
+      "test": "Chi-Square Test",
+      "vars": "Vehicle Type × Injury Severity",
+      "stat": "χ²=160.286",
+      "df": 25,
+      "p": 0.0,
+      "sig": true,
+      "interpretation": "Vehicle type is significantly associated with injury severity"
+    },
+    {
+      "test": "Linear Trend Test",
+      "vars": "RTA Proportion across Years",
+      "stat": "r=0.934, slope=0.145",
+      "df": "N/A",
+      "p": 0.2322,
+      "sig": false,
+      "interpretation": "No significant trend"
+    },
+    {
+      "test": "Chi-Square Test",
+      "vars": "Work Shift × Injury Severity",
+      "stat": "χ²=54.601",
+      "df": 25,
+      "p": 0.0006,
+      "sig": true,
+      "interpretation": "Work shift significantly associated with injury severity"
+    },
+    {
+      "test": "Fisher's Exact / Odds Ratio",
+      "vars": "Motorcycle vs Car → Injury",
+      "stat": "OR=38.16",
+      "df": "N/A",
+      "p": 0.0,
+      "sig": true,
+      "interpretation": "Motorcycle riders are 38.2x more likely to sustain injury compared to car drivers"
+    },
+    {
+      "test": "Kruskal-Wallis Test",
+      "vars": "MC Days by Vehicle Type",
+      "stat": "H=38.155",
+      "df": 2,
+      "p": 0.0,
+      "sig": true,
+      "interpretation": "Significant difference in MC duration across vehicle types"
+    },
+    {
+      "test": "Fisher's Exact / Odds Ratio",
+      "vars": "Male vs Female → Injury",
+      "stat": "OR=3.32",
+      "df": "N/A",
+      "p": 0.0,
+      "sig": true,
+      "interpretation": "Males are 3.3x more likely to sustain injury (p=0.0000)"
+    },
+    {
+      "test": "Chi-Square Test",
+      "vars": "Age Group × Injury Severity",
+      "stat": "χ²=10.278",
+      "df": 7,
+      "p": 0.1733,
+      "sig": false,
+      "interpretation": "No significant association between age and injury"
+    }
+  ],
+  "cause_themes": {
+    "Other / Unclassified": 69,
+    "Distraction / Loss of Focus": 67,
+    "Other Vehicle At Fault": 56,
+    "Blind Spot / Sudden Appearance": 52,
+    "Road Condition / Infrastructure": 41,
+    "Animal on Road": 23,
+    "Fatigue / Drowsiness / Microsleep": 18,
+    "Decision & Maneuvering Errors (Loss of Control)": 15,
+    "Tailgating & Reaction Time": 15,
+    "High Speed / Speeding": 15,
+    "Adverse Weather / Poor Visibility": 14,
+    "Mechanical Failure": 10,
+    "Post-Shift / Return Journey": 4,
+    "Psychosocial / Mental State (Rushing, Stress)": 3,
+    "Traffic Flow & Congestion": 2,
+    "Early Morning Commute Risk": 1,
+    "Long Distance Commute": 1
+  },
+  "contrib_themes": {
+    "Other / Unclassified": 74,
+    "Adverse Weather / Poor Visibility": 59,
+    "Blind Spot / Sudden Appearance": 32,
+    "Other Vehicle At Fault": 26,
+    "Road Condition / Infrastructure": 25,
+    "Distraction / Loss of Focus": 24,
+    "Traffic Flow & Congestion": 23,
+    "Tailgating & Reaction Time": 19,
+    "Animal on Road": 12,
+    "Fatigue / Drowsiness / Microsleep": 11,
+    "High Speed / Speeding": 11,
+    "Decision & Maneuvering Errors (Loss of Control)": 8,
+    "Mechanical Failure": 5,
+    "Psychosocial / Mental State (Rushing, Stress)": 4,
+    "Post-Shift / Return Journey": 3,
+    "Long Distance Commute": 2
+  },
+  "narrative_themes": {
+    "Blind Spot / Sudden Appearance": 156,
+    "Other Vehicle At Fault": 139,
+    "Road Condition / Infrastructure": 122,
+    "Post-Shift / Return Journey": 91,
+    "Mechanical Failure": 80,
+    "Tailgating & Reaction Time": 60,
+    "Decision & Maneuvering Errors (Loss of Control)": 60,
+    "Early Morning Commute Risk": 56,
+    "High Speed / Speeding": 56,
+    "Long Distance Commute": 40,
+    "Animal on Road": 37,
+    "Adverse Weather / Poor Visibility": 36,
+    "Fatigue / Drowsiness / Microsleep": 16,
+    "Traffic Flow & Congestion": 13,
+    "Distraction / Loss of Focus": 10,
+    "Other / Unclassified": 7,
+    "Psychosocial / Mental State (Rushing, Stress)": 4
+  },
+  "case_themes": {
+    "Blind Spot / Sudden Appearance": 169,
+    "Other Vehicle At Fault": 164,
+    "Road Condition / Infrastructure": 133,
+    "Other / Unclassified": 128,
+    "Post-Shift / Return Journey": 94,
+    "Distraction / Loss of Focus": 92,
+    "Mechanical Failure": 83,
+    "Adverse Weather / Poor Visibility": 76,
+    "Tailgating & Reaction Time": 72,
+    "High Speed / Speeding": 72,
+    "Decision & Maneuvering Errors (Loss of Control)": 67,
+    "Early Morning Commute Risk": 57,
+    "Long Distance Commute": 42,
+    "Animal on Road": 42,
+    "Traffic Flow & Congestion": 33,
+    "Fatigue / Drowsiness / Microsleep": 22,
+    "Psychosocial / Mental State (Rushing, Stress)": 7
+  },
+  "n_narrative": 299,
+  "n_cause": 308,
+  "n_contrib": 275,
+  "theme_quotes": {
+    "Other / Unclassified": [
+      {
+        "text": "Kurang peka terhadap keadaan selamat sebelum membelok",
+        "source": "cause"
+      },
+      {
+        "text": "Kurang peka terhadap jarak yang selamat semasa pemanduan",
+        "source": "cause"
+      },
+      {
+        "text": "Pemandu kereta yang telah melanggar lampu isyarat menjadi punca utama kejadian kemalangan ini berlaku.",
+        "source": "cause"
+      }
+    ],
+    "Other Vehicle At Fault": [
+      {
+        "text": "Akibat dari blind spot menyebabkan PPKP Husna tidak menyedari kedatangan motosikal dari arah belakang.",
+        "source": "contrib"
+      },
+      {
+        "text": "Kejadian berlaku lebih kurang jam 8.40 pagi, beliau dalam perjalanan ke tempat kerja dari rumah, ketika beliau tiba di persimpangan masuk ke jalan berhadapan Sekolah Menengah Teknik Alor Setar beliau membelok masuk dengan memastikan keadaan selamat d",
+        "source": "narrative"
+      },
+      {
+        "text": "Kenderaan dihadapan berhenti secara mengejut menyebabkan beliau tidak dapat melakukan brek kecemasan dan berlakunya pelanggaran.",
+        "source": "contrib"
+      }
+    ],
+    "Blind Spot / Sudden Appearance": [
+      {
+        "text": "Akibat dari blind spot menyebabkan PPKP Husna tidak menyedari kedatangan motosikal dari arah belakang.",
+        "source": "contrib"
+      },
+      {
+        "text": "Kejadian berlaku lebih kurang jam 8.40 pagi, beliau dalam perjalanan ke tempat kerja dari rumah, ketika beliau tiba di persimpangan masuk ke jalan berhadapan Sekolah Menengah Teknik Alor Setar beliau membelok masuk dengan memastikan keadaan selamat d",
+        "source": "narrative"
+      },
+      {
+        "text": "Kenderaan dihadapan berhenti secara mengejut menyebabkan beliau tidak dapat melakukan brek kecemasan dan berlakunya pelanggaran.",
+        "source": "contrib"
+      }
+    ],
+    "Road Condition / Infrastructure": [
+      {
+        "text": "Kejadian berlaku lebih kurang jam 8.40 pagi, beliau dalam perjalanan ke tempat kerja dari rumah, ketika beliau tiba di persimpangan masuk ke jalan berhadapan Sekolah Menengah Teknik Alor Setar beliau membelok masuk dengan memastikan keadaan selamat d",
+        "source": "narrative"
+      },
+      {
+        "text": "Kejadian berlaku lebih kurang jam 9.30 malam , di simpang empat lampu isyarat  ke kompleks ICQS Bukit Kayu Hitam semasa pegawai dalam perjalanan pulang ke rumah dari tempat kerja selepas selesai bertugas shift (12.00 tengahari- 9.00 malam). Ketika la",
+        "source": "narrative"
+      },
+      {
+        "text": "Kejadian berlaku lebih kurang jam 8.05 pagi , di lorong kecil sebelah lampu isyarat Simpang Empat Simpang Kuala semasa pegawai dalam perjalanan ke tempat kerja dari rumah.\n\nKetika melalui lorong kecil tersebut, pegawai dengan berhati-hati telah mempe",
+        "source": "narrative"
+      }
+    ],
+    "Mechanical Failure": [
+      {
+        "text": "Kejadian berlaku lebih kurang jam 8.40 pagi, beliau dalam perjalanan ke tempat kerja dari rumah, ketika beliau tiba di persimpangan masuk ke jalan berhadapan Sekolah Menengah Teknik Alor Setar beliau membelok masuk dengan memastikan keadaan selamat d",
+        "source": "narrative"
+      },
+      {
+        "text": "Kejadian berlaku lebih kurang jam 7.20 pagi, beliau dalam perjalanan ke tempat kerja dari rumah, ketika beliau tiba di Jalan Langgar berhadapan KEDA terdapat kenderaan dihadapan berhenti secara mengejut menyebabkan beliau tidak dapat melakukan brek k",
+        "source": "narrative"
+      },
+      {
+        "text": "\"Kejadian berlaku lebih kurang jam 6.55 pagi, berdekatan exit gurun lebuhraya utara selatan, ketika pegawai dalam perjalanan ke tempat kerja dari rumah, pegawai memandu dengan kelajuan 90km/j. \nSecara tiba-tiba beliau mendengar bunyi dentuman dimana ",
+        "source": "narrative"
+      }
+    ],
+    "Tailgating & Reaction Time": [
+      {
+        "text": "Kenderaan dihadapan berhenti secara mengejut menyebabkan beliau tidak dapat melakukan brek kecemasan dan berlakunya pelanggaran.",
+        "source": "contrib"
+      },
+      {
+        "text": "Kejadian berlaku lebih kurang jam 7.20 pagi, beliau dalam perjalanan ke tempat kerja dari rumah, ketika beliau tiba di Jalan Langgar berhadapan KEDA terdapat kenderaan dihadapan berhenti secara mengejut menyebabkan beliau tidak dapat melakukan brek k",
+        "source": "narrative"
+      },
+      {
+        "text": "Staff berkemungkinan memandu dengan jarak yang agak dekat dengan kenderaan hadapan.",
+        "source": "cause"
+      }
+    ],
+    "Early Morning Commute Risk": [
+      {
+        "text": "Kejadian berlaku lebih kurang jam 7.20 pagi, beliau dalam perjalanan ke tempat kerja dari rumah, ketika beliau tiba di Jalan Langgar berhadapan KEDA terdapat kenderaan dihadapan berhenti secara mengejut menyebabkan beliau tidak dapat melakukan brek k",
+        "source": "narrative"
+      },
+      {
+        "text": "\"Kejadian berlaku lebih kurang jam 6.55 pagi, berdekatan exit gurun lebuhraya utara selatan, ketika pegawai dalam perjalanan ke tempat kerja dari rumah, pegawai memandu dengan kelajuan 90km/j. \nSecara tiba-tiba beliau mendengar bunyi dentuman dimana ",
+        "source": "narrative"
+      },
+      {
+        "text": "PADA PUKUL 2.40 PETANG, SEORANG PENOLONG PEGAWAI PERUBATAN UNIT KECEMASAN DAN TRAUMA HOSPITAL BALING TELAH TERLIBAT DALAM KEMALANGAN JALAN RAYA KETIKA DALAM PERJALANAN PULANG KE RUMAH SETELAH SELESAI BEKERJA SYIFT PAGI. MOTOSIKAL YANG DITUNGGANGI BEL",
+        "source": "narrative"
+      }
+    ],
+    "Fatigue / Drowsiness / Microsleep": [
+      {
+        "text": "Keadaaan pemandu lori yang mengantuk ketika memandu menjadi punca utama kejadian kemalangan ini berlaku.",
+        "source": "cause"
+      },
+      {
+        "text": "Pada 20/6/23 kenderaan jabatan bertolak balik selepas selesai menghadiri persidangan duta kenali ubat anda di putrajaya. Pada jam lebih kurang 12.10 pagi @ 21/6/2023 sebuah lori no pendaftaran BEP 7166 telah melanggar kenderaan jabatan dari arah bela",
+        "source": "narrative"
+      },
+      {
+        "text": "Keadaaan pemandu lori yang mengantuk ketika memandu menjadi punca utama kejadian kemalangan ini berlaku.",
+        "source": "cause"
+      }
+    ],
+    "High Speed / Speeding": [
+      {
+        "text": "Pada 20/6/23 kenderaan jabatan bertolak balik selepas selesai menghadiri persidangan duta kenali ubat anda di putrajaya.Pada jam lebih kurang 12.10 pagi @ 21/6/2023 sebuah lori no pendaftaran BEP 7166 telah melanggar kenderaan jabatan dari arah belak",
+        "source": "narrative"
+      },
+      {
+        "text": "Pada 20/6/23 kenderaan jabatan bertolak balik selepas selesai menghadiri persidangan duta kenali ubat anda di putrajaya. Pada jam lebih kurang 12.10 pagi @ 21/6/2023 sebuah lori no pendaftaran BEP 7166 telah melanggar kenderaan jabatan dari arah bela",
+        "source": "narrative"
+      },
+      {
+        "text": "\"Kejadian berlaku lebih kurang jam 6.55 pagi, berdekatan exit gurun lebuhraya utara selatan, ketika pegawai dalam perjalanan ke tempat kerja dari rumah, pegawai memandu dengan kelajuan 90km/j. \nSecara tiba-tiba beliau mendengar bunyi dentuman dimana ",
+        "source": "narrative"
+      }
+    ],
+    "Long Distance Commute": [
+      {
+        "text": "Pada 20/6/23 kenderaan jabatan bertolak balik selepas selesai menghadiri persidangan duta kenali ubat anda di putrajaya.Pada jam lebih kurang 12.10 pagi @ 21/6/2023 sebuah lori no pendaftaran BEP 7166 telah melanggar kenderaan jabatan dari arah belak",
+        "source": "narrative"
+      },
+      {
+        "text": "Pada 20/6/23 kenderaan jabatan bertolak balik selepas selesai menghadiri persidangan duta kenali ubat anda di putrajaya. Pada jam lebih kurang 12.10 pagi @ 21/6/2023 sebuah lori no pendaftaran BEP 7166 telah melanggar kenderaan jabatan dari arah bela",
+        "source": "narrative"
+      },
+      {
+        "text": "08.01.2023 @ 6.30pagi - Pegawai ini baru bertugas di Unit Bakas, Pejabat Kesihatan Daerah Kota Setar lebih kurang 2 bulan. Sebelum ini, Pegawai ini bertugas di Unit Ento, PKD Kota Setar. Salah satu tugas pegawai ini adalah buka pintu pejabat pada wak",
+        "source": "narrative"
+      }
+    ],
+    "Decision & Maneuvering Errors (Loss of Control)": [
+      {
+        "text": "Sebuah kereta yang menukar lorong secara tiba-tiba telah melanggar kenderaan beliau dari arah belakang sisi kanan. Akibat daripada kemalangan tersebut telah menyebabkan kenderaan pegawai terbabas dan terlanggar besi penghalang jalan",
+        "source": "contrib"
+      },
+      {
+        "text": "\"Kejadian berlaku lebih kurang jam 6.55 pagi, berdekatan exit gurun lebuhraya utara selatan, ketika pegawai dalam perjalanan ke tempat kerja dari rumah, pegawai memandu dengan kelajuan 90km/j. \nSecara tiba-tiba beliau mendengar bunyi dentuman dimana ",
+        "source": "narrative"
+      },
+      {
+        "text": "Pemandu motokar yang telah hilang kawalan punca utama kejadian kemalangan ini berlaku.",
+        "source": "cause"
+      }
+    ],
+    "Post-Shift / Return Journey": [
+      {
+        "text": "Kejadian berlaku lebih kurang jam 9.30 malam , di simpang empat lampu isyarat  ke kompleks ICQS Bukit Kayu Hitam semasa pegawai dalam perjalanan pulang ke rumah dari tempat kerja selepas selesai bertugas shift (12.00 tengahari- 9.00 malam). Ketika la",
+        "source": "narrative"
+      },
+      {
+        "text": "KEJADIAN BERLAKU LEBIH KURANG JAM 2.00 PETANG, BELIAU DALAM PERJALANAN KE TEMPAT KERJA DARI RUMAH (PEGAWAI PULANG KE RUMAH SEMASA WAKTU REHAT 1.00 - 2.00 PETANG. KETIKA BELIAU TIBA DI PINTU MASUK UTAMA JKN KEDAH BELIAU MEYAPA PEGAWAI KESELAMATAN TIBA",
+        "source": "narrative"
+      },
+      {
+        "text": "STAFF MEMANDU KERETA PULANG KERUMAH SETELAH SELESAI BEKERJA SHIFT WAKTU PEJABAT. KETIKA DALAM PERJALANAN PULANG MENGHALA KE RUMAH CHARUK BEMBAN, TIBA-TIBA STAFF TERLELAP SEKEJAP DAN BELIAU TERSEDAR YANG BELIAU SUDAH KE KIRI BAHU JALAN. (BERHADAPAN KO",
+        "source": "narrative"
+      }
+    ],
+    "Distraction / Loss of Focus": [
+      {
+        "text": "KECUAIAN PEGAWAI SEMASA PEMANDUAN TELAH MENYEBABKAN TERLANGGAR PALANG MASUK LALU MENYEBABKAN KEJADIAN INI BERLAKU",
+        "source": "cause"
+      },
+      {
+        "text": "KEJADIAN BERLAKU LEBIH KURANG JAM 2.00 PETANG, BELIAU DALAM PERJALANAN KE TEMPAT KERJA DARI RUMAH (PEGAWAI PULANG KE RUMAH SEMASA WAKTU REHAT 1.00 - 2.00 PETANG. KETIKA BELIAU TIBA DI PINTU MASUK UTAMA JKN KEDAH BELIAU MEYAPA PEGAWAI KESELAMATAN TIBA",
+        "source": "narrative"
+      },
+      {
+        "text": "KECUAIAN DAN KURANG PEKA DENGAN KEADAAN SEKELILING.",
+        "source": "contrib"
+      }
+    ],
+    "Animal on Road": [
+      {
+        "text": "Kemungkinan penunggang motosikal terbabit tidak melihat dengan baik warna lampu isyarat pada masa kejadian.",
+        "source": "cause"
+      },
+      {
+        "text": "Insiden 2/5/2023 @ 8.20 malam- iaitu semasa staff sedang dalam pemanduan untuk datang kerja shift malam dimana semasa berhenti di lampu isyarat  simpang 3 Taman Batik menghala ke jalan hospital  dan semasa lampu  bertukar hijau terdapat 2 buah kereta",
+        "source": "narrative"
+      },
+      {
+        "text": "Head injury due to vehicular accident @ BID",
+        "source": "cause"
+      }
+    ],
+    "Adverse Weather / Poor Visibility": [
+      {
+        "text": "Faktor hujan renyai-renyai juga yang mungkin menyebabkan jalan raya yang licin dan suasana malam yang gelap.",
+        "source": "contrib"
+      },
+      {
+        "text": "ENVIRONMENT FACTOR :                                                                     - CUACA SELEPAS HUJAN (BERKABUR)",
+        "source": "contrib"
+      },
+      {
+        "text": "18/11/2023 (0545) HCW KELUAR DARI RUMAH UNTUK KE TEMPAT KERJA DARI RUMAH DI BUKIT SELAMBAU, SG PETANI.                          - KEADAAN KETIKA MEMANDU AGAK GELAP, JALAN BERKABUS DAN LICIN. MENYUKARKAN PENGLIHATAN SEMASA MEMANDU.             (0605) ",
+        "source": "narrative"
+      }
+    ],
+    "Psychosocial / Mental State (Rushing, Stress)": [
+      {
+        "text": "LORI MASUK KE PETRON SECARA TERGESA-GESA",
+        "source": "contrib"
+      },
+      {
+        "text": "HCW dalam keadaan tergesa-gesa ke tempat kerja untuk shift pagi",
+        "source": "cause"
+      },
+      {
+        "text": "HCW tergesa-gesa ke tempat kerja kerana laluan jalan yang jem menyebabkan lewat ke tempat kerja.",
+        "source": "contrib"
+      }
+    ],
+    "Traffic Flow & Congestion": [
+      {
+        "text": "Kecuaian kenderaan lain yang tidak menjaga jarak serta kemungkinan faktor kesesakan kenderaan pada tempoh tersebut",
+        "source": "contrib"
+      },
+      {
+        "text": "16.08.2023 @ 2.30 petang -Pegawai ini telah berkhidmat selama 23tahun sebagai Jururawat Masyarakat.  Beliau bertugas di Klinik Desa Kangkong selama lebih kurang 12tahun dan tinggal di kuarters klinik berkenaan.  \n\nPegawai terlibat dalam kemalangan be",
+        "source": "narrative"
+      },
+      {
+        "text": "Faktor persekitaran \n- kesesakan jalanraya\n- keadaan cuaca hujan renyai",
+        "source": "contrib"
+      }
+    ]
+  },
+  "theme_desc": {
+    "Fatigue / Drowsiness / Microsleep": "Workers experiencing exhaustion from shift work, long hours, or early morning starts, leading to impaired driving alertness.",
+    "Other Vehicle At Fault": "Incidents caused by third-party road users—reckless driving, illegal maneuvers, or head-on collisions initiated by other vehicles.",
+    "Adverse Weather / Poor Visibility": "Rain, darkness, fog, or wet road surfaces reducing visibility and vehicle control.",
+    "Road Condition / Infrastructure": "Poor road maintenance, missing street lighting, narrow lanes, potholes, or hazardous intersections.",
+    "Distraction / Loss of Focus": "Driver inattention due to phone use, mental preoccupation, or momentary lapses in concentration.",
+    "High Speed / Speeding": "Excessive speed reducing reaction time and increasing impact severity.",
+    "Animal on Road": "Wildlife or domestic animals suddenly appearing on the road.",
+    "Mechanical Failure": "Vehicle malfunction including brake failure, tire blowouts, or throttle issues.",
+    "Early Morning Commute Risk": "Heightened risk during pre-dawn and dawn commuting hours (5-8 AM) when visibility is low.",
+    "Long Distance Commute": "Healthcare workers traveling long distances (>50km) between home and workplace.",
+    "Post-Shift / Return Journey": "Accidents occurring during the return journey after completing work shifts.",
+    "Blind Spot / Sudden Appearance": "Unexpected appearance of vehicles or obstacles, often at intersections.",
+    "Psychosocial / Mental State (Rushing, Stress)": "Time pressure, mental stress, or psychological factors leading to risky driving behavior (e.g., rushing to work).",
+    "Decision & Maneuvering Errors (Loss of Control)": "Psychomotor or tactical errors such as skidding, pedal misapplication, or failure to perform emergency maneuvers.",
+    "Tailgating & Reaction Time": "Following other vehicles too closely or failing to react in time to traffic changes.",
+    "Traffic Flow & Congestion": "Incidents occurring during peak hours or heavy traffic congestion.",
+    "Other / Unclassified": "Cases with unique or insufficiently detailed causal descriptions."
+  },
+  "theme_hierarchy": {
+    "Human Factors & Behavior": [
+      "Fatigue / Drowsiness / Microsleep",
+      "Distraction / Loss of Focus",
+      "Psychosocial / Mental State (Rushing, Stress)",
+      "Decision & Maneuvering Errors (Loss of Control)",
+      "High Speed / Speeding"
+    ],
+    "Environmental Factors": [
+      "Adverse Weather / Poor Visibility",
+      "Animal on Road"
+    ],
+    "Road & Infrastructure": [
+      "Road Condition / Infrastructure",
+      "Blind Spot / Sudden Appearance"
+    ],
+    "Vehicle Factors": [
+      "Mechanical Failure"
+    ],
+    "External Traffic Factors": [
+      "Other Vehicle At Fault"
+    ],
+    "Temporal & Work Factors": [
+      "Early Morning Commute Risk",
+      "Long Distance Commute",
+      "Post-Shift / Return Journey"
+    ],
+    "Other": [
+      "Other / Unclassified"
+    ]
+  },
+  "odds_ratios": [
+    {
+      "factor": "Riding a Motorcycle (vs Car)",
+      "stats": {
+        "A": 130,
+        "B": 11,
+        "C": 48,
+        "D": 121,
+        "OR": 29.79,
+        "p": "<0.0001",
+        "sig": true,
+        "ci": "[14.79 - 60.02]"
+      }
+    },
+    {
+      "factor": "Male Gender (vs Female)",
+      "stats": {
+        "A": 109,
+        "B": 49,
+        "C": 69,
+        "D": 83,
+        "OR": 2.68,
+        "p": "<0.0001",
+        "sig": true,
+        "ci": "[1.68 - 4.26]"
+      }
+    },
+    {
+      "factor": "Age > 35 (vs <= 35)",
+      "stats": {
+        "A": 126,
+        "B": 81,
+        "C": 52,
+        "D": 51,
+        "OR": 1.53,
+        "p": 0.0888,
+        "sig": false,
+        "ci": "[0.95 - 2.46]"
+      }
+    },
+    {
+      "factor": "Shift Worker (vs Office Hours)",
+      "stats": {
+        "A": 23,
+        "B": 9,
+        "C": 155,
+        "D": 123,
+        "OR": 2.03,
+        "p": 0.0913,
+        "sig": false,
+        "ci": "[0.91 - 4.54]"
+      }
+    },
+    {
+      "factor": "Night Commute (8pm-5am)",
+      "stats": {
+        "A": 54,
+        "B": 35,
+        "C": 124,
+        "D": 97,
+        "OR": 1.21,
+        "p": 0.526,
+        "sig": false,
+        "ci": "[0.73 - 1.99]"
+      }
+    }
+  ],
+  "fatigue_data": [
+    {
+      "d_acc": 6.7,
+      "d_work": 6.4,
+      "ratio": 1.05,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 12.8,
+      "d_work": 22.5,
+      "ratio": 0.57,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.4,
+      "d_work": 8.2,
+      "ratio": 0.17,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.3,
+      "d_work": 1.3,
+      "ratio": 1.0,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 26.0,
+      "d_work": 56.0,
+      "ratio": 0.46,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 20.0,
+      "d_work": 36.0,
+      "ratio": 0.56,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 33.0,
+      "ratio": 0.3,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.0,
+      "d_work": 3.0,
+      "ratio": 0.67,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.0,
+      "d_work": 3.0,
+      "ratio": 0.67,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.0,
+      "d_work": 4.0,
+      "ratio": 0.5,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 14.0,
+      "d_work": 57.0,
+      "ratio": 0.25,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.0,
+      "d_work": 9.0,
+      "ratio": 0.33,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 5.0,
+      "d_work": 11.5,
+      "ratio": 0.43,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.0,
+      "d_work": 7.0,
+      "ratio": 0.14,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.3,
+      "d_work": 3.9,
+      "ratio": 0.33,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 23.0,
+      "d_work": 38.0,
+      "ratio": 0.61,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 8.5,
+      "d_work": 9.3,
+      "ratio": 0.91,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 4.3,
+      "d_work": 7.2,
+      "ratio": 0.6,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 6.9,
+      "d_work": 8.7,
+      "ratio": 0.79,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 37.0,
+      "d_work": 38.0,
+      "ratio": 0.97,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.0,
+      "d_work": 6.9,
+      "ratio": 0.14,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 12.0,
+      "d_work": 13.0,
+      "ratio": 0.92,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 14.0,
+      "d_work": 15.0,
+      "ratio": 0.93,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 14.0,
+      "d_work": 15.0,
+      "ratio": 0.93,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 7.5,
+      "d_work": 18.0,
+      "ratio": 0.42,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 0.02,
+      "d_work": 4.0,
+      "ratio": 0.01,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 0.6,
+      "d_work": 1.6,
+      "ratio": 0.37,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 5.0,
+      "d_work": 25.0,
+      "ratio": 0.2,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.0,
+      "d_work": 15.0,
+      "ratio": 0.13,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 16.0,
+      "d_work": 16.0,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 15.0,
+      "d_work": 20.0,
+      "ratio": 0.75,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 7.0,
+      "d_work": 39.0,
+      "ratio": 0.18,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 0.65,
+      "d_work": 13.4,
+      "ratio": 0.05,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 6.0,
+      "d_work": 5.0,
+      "ratio": 1.2,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.0,
+      "d_work": 3.0,
+      "ratio": 0.33,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 76.2,
+      "d_work": 116.0,
+      "ratio": 0.66,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 4.6,
+      "d_work": 44.0,
+      "ratio": 0.1,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 68.0,
+      "ratio": 0.15,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.9,
+      "d_work": 16.0,
+      "ratio": 0.24,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 11.0,
+      "d_work": 20.0,
+      "ratio": 0.55,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 17.7,
+      "d_work": 17.7,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 16.2,
+      "d_work": 46.6,
+      "ratio": 0.35,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 115.0,
+      "d_work": 116.0,
+      "ratio": 0.99,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 27.9,
+      "d_work": 41.7,
+      "ratio": 0.67,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 16.4,
+      "d_work": 38.7,
+      "ratio": 0.42,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 9.0,
+      "d_work": 9.0,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 5.0,
+      "d_work": 15.0,
+      "ratio": 0.33,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 15.0,
+      "ratio": 0.67,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 20.0,
+      "ratio": 0.5,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 59.0,
+      "d_work": 65.0,
+      "ratio": 0.91,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.0,
+      "d_work": 46.0,
+      "ratio": 0.04,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.6,
+      "d_work": 3.3,
+      "ratio": 0.79,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 15.0,
+      "ratio": 0.67,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 13.0,
+      "d_work": 23.0,
+      "ratio": 0.57,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 21.0,
+      "ratio": 0.48,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 50.0,
+      "d_work": 58.0,
+      "ratio": 0.86,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 40.0,
+      "d_work": 60.0,
+      "ratio": 0.67,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 36.0,
+      "d_work": 50.0,
+      "ratio": 0.72,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 32.0,
+      "d_work": 56.0,
+      "ratio": 0.57,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 15.0,
+      "ratio": 0.67,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 156.0,
+      "d_work": 459.0,
+      "ratio": 0.34,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 156.0,
+      "d_work": 459.0,
+      "ratio": 0.34,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 156.0,
+      "d_work": 459.0,
+      "ratio": 0.34,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 156.0,
+      "d_work": 459.0,
+      "ratio": 0.34,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 35.7,
+      "d_work": 60.0,
+      "ratio": 0.6,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 21.7,
+      "d_work": 55.0,
+      "ratio": 0.39,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 45.6,
+      "d_work": 58.0,
+      "ratio": 0.79,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 20.0,
+      "ratio": 0.5,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 15.0,
+      "d_work": 60.0,
+      "ratio": 0.25,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 20.0,
+      "d_work": 60.0,
+      "ratio": 0.33,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 29.0,
+      "d_work": 29.0,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 18.0,
+      "d_work": 18.0,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.6,
+      "d_work": 5.8,
+      "ratio": 0.45,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 0.3,
+      "d_work": 22.0,
+      "ratio": 0.01,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 28.0,
+      "d_work": 45.0,
+      "ratio": 0.62,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 5.5,
+      "d_work": 5.0,
+      "ratio": 1.1,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 61.3,
+      "d_work": 62.3,
+      "ratio": 0.98,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 7.0,
+      "d_work": 49.0,
+      "ratio": 0.14,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 8.7,
+      "d_work": 17.0,
+      "ratio": 0.51,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 6.0,
+      "d_work": 18.0,
+      "ratio": 0.33,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.0,
+      "d_work": 5.0,
+      "ratio": 0.2,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 0.3,
+      "d_work": 1.0,
+      "ratio": 0.3,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 17.0,
+      "d_work": 20.0,
+      "ratio": 0.85,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 32.0,
+      "d_work": 32.0,
+      "ratio": 1.0,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 27.0,
+      "d_work": 30.0,
+      "ratio": 0.9,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 25.5,
+      "d_work": 26.0,
+      "ratio": 0.98,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 27.0,
+      "d_work": 30.0,
+      "ratio": 0.9,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 60.0,
+      "d_work": 62.0,
+      "ratio": 0.97,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 56.4,
+      "d_work": 54.8,
+      "ratio": 1.03,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 20.0,
+      "d_work": 28.0,
+      "ratio": 0.71,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 40.0,
+      "d_work": 48.0,
+      "ratio": 0.83,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.1,
+      "d_work": 6.0,
+      "ratio": 0.18,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 5.0,
+      "d_work": 20.0,
+      "ratio": 0.25,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 45.0,
+      "d_work": 60.0,
+      "ratio": 0.75,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.0,
+      "d_work": 15.0,
+      "ratio": 0.2,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 10.0,
+      "d_work": 10.0,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 18.0,
+      "d_work": 20.0,
+      "ratio": 0.9,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 67.0,
+      "d_work": 87.0,
+      "ratio": 0.77,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 5.0,
+      "d_work": 20.0,
+      "ratio": 0.25,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 10.8,
+      "d_work": 31.3,
+      "ratio": 0.35,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.3,
+      "d_work": 2.1,
+      "ratio": 0.62,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 18.8,
+      "d_work": 42.9,
+      "ratio": 0.44,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 68.5,
+      "d_work": 67.5,
+      "ratio": 1.01,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 42.0,
+      "d_work": 41.0,
+      "ratio": 1.02,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 13.0,
+      "d_work": 55.0,
+      "ratio": 0.24,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 5.4,
+      "d_work": 18.6,
+      "ratio": 0.29,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 14.0,
+      "d_work": 64.8,
+      "ratio": 0.22,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 22.4,
+      "d_work": 43.4,
+      "ratio": 0.52,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.7,
+      "d_work": 3.0,
+      "ratio": 0.9,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 0.1,
+      "d_work": 27.0,
+      "ratio": 0.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 33.2,
+      "d_work": 36.4,
+      "ratio": 0.91,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.5,
+      "d_work": 4.0,
+      "ratio": 0.88,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.0,
+      "d_work": 3.5,
+      "ratio": 0.86,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.0,
+      "d_work": 10.0,
+      "ratio": 0.3,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.0,
+      "d_work": 68.0,
+      "ratio": 0.01,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 45.0,
+      "d_work": 50.0,
+      "ratio": 0.9,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.5,
+      "d_work": 20.0,
+      "ratio": 0.07,
+      "shift": "Shift Worker"
+    },
+    {
+      "d_acc": 14.0,
+      "d_work": 14.2,
+      "ratio": 0.99,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.4,
+      "d_work": 45.6,
+      "ratio": 0.03,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 27.0,
+      "d_work": 31.0,
+      "ratio": 0.87,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 7.0,
+      "d_work": 11.0,
+      "ratio": 0.64,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 8.0,
+      "d_work": 15.0,
+      "ratio": 0.53,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 33.9,
+      "d_work": 36.0,
+      "ratio": 0.94,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 14.6,
+      "d_work": 20.0,
+      "ratio": 0.73,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 6.9,
+      "d_work": 8.4,
+      "ratio": 0.82,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 20.4,
+      "d_work": 44.6,
+      "ratio": 0.46,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 4.7,
+      "d_work": 10.7,
+      "ratio": 0.44,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 4.3,
+      "d_work": 22.7,
+      "ratio": 0.19,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.3,
+      "d_work": 15.1,
+      "ratio": 0.09,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 4.7,
+      "d_work": 10.7,
+      "ratio": 0.44,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 6.0,
+      "d_work": 33.0,
+      "ratio": 0.18,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 4.0,
+      "d_work": 32.0,
+      "ratio": 0.12,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.0,
+      "d_work": 1.4,
+      "ratio": 0.71,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.0,
+      "d_work": 32.0,
+      "ratio": 0.09,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 9.0,
+      "d_work": 28.0,
+      "ratio": 0.32,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.0,
+      "d_work": 1.0,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 0.0,
+      "d_work": 41.0,
+      "ratio": 0.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 0.0,
+      "d_work": 40.0,
+      "ratio": 0.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 14.0,
+      "d_work": 14.0,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.0,
+      "d_work": 40.0,
+      "ratio": 0.03,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 11.0,
+      "d_work": 26.0,
+      "ratio": 0.42,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 50.4,
+      "d_work": 97.3,
+      "ratio": 0.52,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 1.1,
+      "d_work": 1.1,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.6,
+      "d_work": 2.6,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 7.9,
+      "d_work": 30.9,
+      "ratio": 0.26,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.3,
+      "d_work": 16.0,
+      "ratio": 0.21,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 40.1,
+      "d_work": 96.7,
+      "ratio": 0.41,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 29.0,
+      "d_work": 46.9,
+      "ratio": 0.62,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 32.0,
+      "d_work": 49.5,
+      "ratio": 0.65,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 43.7,
+      "d_work": 46.2,
+      "ratio": 0.95,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 4.0,
+      "d_work": 45.0,
+      "ratio": 0.09,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 21.0,
+      "d_work": 29.4,
+      "ratio": 0.71,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 55.5,
+      "d_work": 56.5,
+      "ratio": 0.98,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 3.0,
+      "d_work": 5.0,
+      "ratio": 0.6,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 11.0,
+      "d_work": 18.0,
+      "ratio": 0.61,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 5.0,
+      "d_work": 10.0,
+      "ratio": 0.5,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 12.0,
+      "d_work": 31.0,
+      "ratio": 0.39,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 8.0,
+      "d_work": 17.0,
+      "ratio": 0.47,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 32.0,
+      "d_work": 58.0,
+      "ratio": 0.55,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 17.4,
+      "d_work": 19.6,
+      "ratio": 0.89,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 45.6,
+      "d_work": 29.0,
+      "ratio": 1.57,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 4.5,
+      "d_work": 21.5,
+      "ratio": 0.21,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 45.0,
+      "d_work": 45.0,
+      "ratio": 1.0,
+      "shift": "Standard Office Hours"
+    },
+    {
+      "d_acc": 2.5,
+      "d_work": 15.0,
+      "ratio": 0.17,
+      "shift": "Standard Office Hours"
+    }
+  ],
+  "blackspots": [
+    {
+      "location": "PERSIMPANGAN DIANTARA JALAN LENCONGAN TIMUR DAN JALAN BATIK 2",
+      "count": 5
+    },
+    {
+      "location": "KM 292 JALAN GRIK KUALA KANGSAR",
+      "count": 4
+    },
+    {
+      "location": "LALUAN KELUAR SUNGAI PETANI SELATAN ARAH UTARA",
+      "count": 3
+    },
+    {
+      "location": "HADAPAN PEJABAT KEMAS PADANG TERAP",
+      "count": 3
+    },
+    {
+      "location": "JALAN SELAMA SERDANG HADAPAN JABATAN KEBAJIKAN MASYARAKAT BANDAR BAHARU",
+      "count": 3
+    },
+    {
+      "location": "HADAPAN KEDAI MAKAN ABAH KELI GORENG POKOK SENA KEDAH",
+      "count": 3
+    },
+    {
+      "location": "DI HADAPAN PINTU MASUK KLINIK KESIHATAN JENIANG",
+      "count": 3
+    },
+    {
+      "location": "SIMPANG MASUK KE TAMAN VISTANA",
+      "count": 2
+    },
+    {
+      "location": "BUKIT SELAMBAU",
+      "count": 2
+    },
+    {
+      "location": "CAR PARKING DI OFFICER AREA HOSPITAL KULIM",
+      "count": 2
+    },
+    {
+      "location": "LAMPU ISYARAT BERHADAPAN STESEN MINYAK BURAQ OIL PENDANG",
+      "count": 2
+    },
+    {
+      "location": "JALAN PAYA BESAR LUNAS",
+      "count": 2
+    },
+    {
+      "location": "HADAPAN LANGKAWI FAIR BILLION",
+      "count": 2
+    },
+    {
+      "location": "JALAN RAYA UTAMA KAMPUNG BUKIT MENGHALA POKOK SENA SELEPAS JAYA PUYUH CENTRE MINI MART",
+      "count": 2
+    },
+    {
+      "location": "DALAM PERKARANGAN KLINIK DESA KAMPUNG NYIUR",
+      "count": 2
+    }
+  ]
+}
